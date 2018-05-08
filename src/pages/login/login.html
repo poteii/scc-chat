@@ -1,0 +1,47 @@
+<ion-content class="background" >
+  <ion-card>
+    <ion-card-header>
+      {{ 'LOGIN_HEADER' | translate }}
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list >
+        <ion-item>
+          <ion-input
+            type="email"
+            [(ngModel)]="user.email"
+            name="email"
+            placeholder="{{'EMAIL' | translate }}" ></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-input
+            type="password"
+            [(ngModel)]="user.password"
+            name="password"
+            placeholder="{{'PASSWORD' | translate }}" >
+          </ion-input>
+        </ion-item>
+
+        <button
+          ion-button
+          block
+          round
+          outline
+          (click)="signin()"
+          color="light" >
+        {{'BUTTON_LOGIN' | translate}}
+        </button>
+
+        <button
+          ion-button
+          full
+          clear
+          (click)="onSignup()"
+          color="light" >
+          {{'LABEL_SIGNUP' | translate}} {{'BUTTON_SIGNUP' | translate}}
+        </button>
+
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

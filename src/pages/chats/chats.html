@@ -1,0 +1,54 @@
+
+<ion-header>
+
+  <ion-navbar color="hcolor">
+    <ion-title> {{'CHATS_TITLE' | translate}}</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="addFriend()">
+        <ion-icon name="person-add"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list no-lines >
+    <ion-list-header>
+      {{'CHATS_REQUEST' | translate}}
+    </ion-list-header>
+
+    <ion-item-sliding *ngFor="let item of myRequests" >
+      <ion-item >
+        <ion-avatar item-left>
+          <img src="{{item.photoURL}}">
+        </ion-avatar>
+        <h3>{{item.displayName}}</h3>
+      </ion-item>
+
+      <ion-item-options>
+        <button ion-button color="secondary" (click)="accept(item)">
+          <ion-icon name="checkmark"></ion-icon>
+           {{'FRIENDS_ADD' | translate}}
+        </button>
+        <button ion-button color="danger" (click)="ignore(item)">
+          <ion-icon name="trash"></ion-icon>
+          {{'CHATS_IGNORE' | translate}}
+        </button>
+      </ion-item-options>
+
+    </ion-item-sliding>
+
+    <ion-list-header>
+        {{'FRIENDS_TITLE' | translate}}
+    </ion-list-header>
+    <ion-item *ngFor="let item of myFriends" (click)="chat(item)">
+      <ion-avatar item-left>
+        <img src={{item.photoURL}}>
+      </ion-avatar>
+      <h3>{{item.displayName}}</h3>
+    </ion-item>
+
+  </ion-list>
+</ion-content>

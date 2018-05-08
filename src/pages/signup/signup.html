@@ -1,0 +1,62 @@
+
+<ion-header>
+
+</ion-header>
+
+
+<ion-content class="background">
+  <ion-card>
+    <ion-card-header>
+      {{ 'SIGNUP_HEADER' | translate }}
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list >
+        <ion-item>
+          <ion-input
+            type="email"
+            [(ngModel)]="user.email"
+            name="email"
+            placeholder="{{'EMAIL' | translate }}" ></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-input
+            type="password"
+            [(ngModel)]="user.password"
+            name="password"
+            placeholder="{{'PASSWORD' | translate }}" >
+          </ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-input
+            type="text"
+            [(ngModel)]="user.displayName"
+            name="displayName"
+            placeholder="{{'DISPLAYNAME' | translate}}" >
+          </ion-input>
+        </ion-item>
+
+        <button
+          ion-button
+          block
+          round
+          (click)="signup()"
+          color="light"
+          outline >
+          {{'BUTTON_SIGNUP' | translate}}
+        </button>
+
+        <button
+          ion-button
+          clear
+          color="light"
+          (click)="back()"
+          full >
+          {{'BACK' | translate}}
+        </button>
+
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

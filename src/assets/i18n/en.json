@@ -1,0 +1,68 @@
+{
+  "LOGIN_HEADER": "Login",
+  "EMAIL": "email",
+  "PASSWORD": "password",
+
+  "BUTTON_LOGIN": "login",
+  "BUTTON_SIGNUP": "signup",
+  "BUTTON_OKAY": "Ok",
+
+  "LABEL_SIGNUP": "Don't have an account? ",
+
+
+  "SIGNUP_HEADER": "Signup",
+  "DISPLAYNAME": "Display Name",
+  "BACK": "Back",
+  "MSG_REQUIRED": "All fields are required",
+  "MSG_PASSWORD": "Password is not strong. Try giving more than six characters",
+  "MSG_PROCESSING": "Please wait...",
+  "MSG_LOGIN_FAIL": "Password not correct!",
+
+  "TAB1_TITLE": "Chats",
+  "TAB2_TITLE": "Profile",
+
+
+
+  "PROFILEPIC_TITLE": "Profile Picture",
+  "PROFILEPIC_CHOOSE": "Choose Picture Profile",
+  "PROFILEPIC_SKIP": "Skip this step",
+  "PROFILEPIC_UPLOAD": "Upload Picture",
+
+
+
+  "PROFILE_TITLE": "Profile",
+  "PROFILE_EDIT_NAME": "Tap on your pic or nick name to change it.",
+
+
+  "PROFILE_ALERT_TITLE": "Edit Display name",
+  "PROFILE_ALERT_INPUT": "Display name",
+  "PROFILE_ALERT_PLACEHOLDER": "Display name",
+  "PROFILE_ALERT_CANCEL": "Cancel",
+  "PROFILE_ALERT_EDIT": "Edit",
+  "PROFILE_ALERT_TITLE_MSG": "Display name has been changed",
+  "PROFILE_ALERT_TITLE_FAIL": "Failed",
+  "PROFILE_ALERT_FAIL_MSG": "Display name was not changed",
+  "PROFILE_ALERT_PIC_MSG": "Profile picture has been changed!",
+  "PROFILE_ALERT_PIC_FAIL_MSG": "Profile picture was not changed!",
+
+  "CHATS_TITLE": "Chats",
+  "CHATS_REQUEST": "Requests",
+  "CHATS_IGNORE": "Ignore",
+  "CHATS_ADD": "Friend Add!",
+  "CHATS_ADD_MSG": "Tap on friend to chat",
+
+
+  "SETTING.LANGUAGE": "Language",
+  "SETTING.LANGUAGE.TH": "Thai",
+  "SETTING.LANGUAGE.EN": "English",
+
+  "FRIENDS_TITLE": "Friends",
+  "FRIENDS_ADD": "Add",
+  "FRIENDS_SEARCH": "Search",
+  "FRIENDS_ALWAYS": "You are already friend",
+  "FRIENDS_REQ_SENT": "sent request",
+  "FRIENDS_REQ_SENT_MSG": "your request was sent to ",
+  "FRIENDS_CHAT_NEW_MSG": "Write messages"
+
+
+}

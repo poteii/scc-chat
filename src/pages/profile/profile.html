@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-navbar color="hcolor">
+    <ion-title>{{'PROFILE_TITLE' | translate}}</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <div class="profile-image"
+       (click)="editImage()">
+    <img src="{{profilePic}}">
+  </div>
+  <div>
+    <h2 (click)="editName()">{{displayName}}</h2>
+  </div>
+  <div>
+    {{'PROFILE_EDIT_NAME' | translate}}
+  </div>
+  <div class="spacer"
+       style="height: 10px;"></div>
+  <div>
+    <button ion-button
+            round
+            outline
+            color="danger"
+            (click)="logout()">Logout</button>
+  </div>
+  <div class="spacer"
+       style="height: 10px;"></div>
+  <div>
+    <ion-list>
+      <ion-item>
+        {{ 'SETTING.LANGUAGE' | translate }}
+        <button ion-button
+                outline
+                item-end
+                (click)="onChangeLanguage()">
+          {{ language }}
+        </button>
+      </ion-item>
+
+    </ion-list>
+  </div>
+</ion-content>

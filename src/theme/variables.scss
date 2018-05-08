@@ -4,6 +4,20 @@
 // Font path is used to include ionicons,
 // roboto, and noto sans fonts
 $font-path: "../assets/fonts";
+@font-face {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 300;
+  src: url("#{$font-path}/kanit/Kanit-Light.ttf");
+}
+
+
+@font-face {
+  font-family: "Bangna New";
+  font-style: normal;
+  font-weight: 400;
+  src: url("#{$font-path}/bangna-new/bangna-new.ttf");
+}
 
 
 // The app direction is used to include
@@ -38,8 +52,14 @@ $colors: (
   secondary:  #32db64,
   danger:     #f53d3d,
   light:      #f4f4f4,
-  dark:       #222
+  dark:       #222,
+  hcolor:     #036eb6,
 );
+
+$font-family-base: 'Kanit';
+$font-family-ios-base: 'Kanit';
+$font-family-md-base: 'Kanit';
+$font-family-wp-base: 'Kanit';
 
 
 // App iOS Variables

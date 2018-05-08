@@ -1,0 +1,73 @@
+{
+
+  "LOGIN_HEADER": "เข้าสู่ระบบ",
+  "EMAIL": "อีเมล",
+  "PASSWORD": "รหัสผ่าน",
+
+  "BUTTON_LOGIN": "เข้าสู่ระบบ",
+  "BUTTON_SIGNUP": "สมัคร",
+  "BUTTON_OKAY": "ตกลง",
+
+  "LABEL_SIGNUP": "ยังไม่มีบัญชีใช่หรือไม่? ",
+
+
+  "SIGNUP_HEADER": "สมัครสมาชิก",
+  "DISPLAYNAME": "ชื่อเรียก",
+  "BACK": "กลับ",
+  "MSG_REQUIRED": "กรุณากรอกข้อมูลให้ครบ",
+  "MSG_PASSWORD": "รหัสผ่านควรมากกว่า 6 ตัว",
+  "MSG_PROCESSING": "กำลังดำเนินการ",
+  "MSG_LOGIN_FAIL": "ไม่สามารถเข้าสู่ระบบได้",
+
+  "TAB1_TITLE": "สนทนา",
+  "TAB2_TITLE": "ข้อมูลของฉัน",
+
+
+
+  "PROFILEPIC_TITLE": "รูปภาพประจำตัว",
+  "PROFILEPIC_CHOOSE": "เลือกรูปภาพ",
+  "PROFILEPIC_SKIP": "ข้ามขั้นตอนนี้ไปก่อน",
+  "PROFILEPIC_UPLOAD": "โหลดภาพ",
+
+
+
+  "PROFILE_TITLE": "ข้อมูลส่วนตัว",
+  "PROFILE_EDIT_NAME": "คลิ๊กที่ชื่อเพื่อทำการแก้ไข",
+
+
+
+  "PROFILE_ALERT_TITLE": "แก้ไขชื่อเรียก",
+  "PROFILE_ALERT_INPUT": "ชื่อเรียก",
+  "PROFILE_ALERT_PLACEHOLDER": "ชื่อเรียก",
+  "PROFILE_ALERT_CANCEL": "ยกเลิก",
+  "PROFILE_ALERT_EDIT": "แก้ไข",
+  "PROFILE_ALERT_TITLE_MSG": "แก้ไขชื่อเรียกเสร็จเรียบร้อย",
+  "PROFILE_ALERT_TITLE_FAIL": "พบข้อผิดพลาด",
+  "PROFILE_ALERT_FAIL_MSG": "ชื่อเรียกไม่สามารถแก้ไขได้",
+  "PROFILE_ALERT_PIC_MSG": "แก้ไขรูปภาพเสร็จเรียบร้อย",
+  "PROFILE_ALERT_PIC_FAIL_MSG": "รูปภาพเไม่สามารถแก้ไขได้",
+
+  "CHATS_TITLE": "พูดคุย",
+  "CHATS_REQUEST": "คำขอ",
+  "CHATS_IGNORE": "ไม่สนใจ",
+  "CHATS_ADD": "เพิ่มเพื่อน",
+  "CHATS_ADD_MSG": "กดเพื่อทำการ chat กับเพื่อน",
+
+
+
+  "SETTING.LANGUAGE": "ภาษา",
+  "SETTING.LANGUAGE.TH": "ไทย",
+  "SETTING.LANGUAGE.EN": "อังกฤษ",
+
+  "FRIENDS_TITLE": "เพื่อน",
+  "FRIENDS_ADD": "เพิ่ม",
+  "FRIENDS_SEARCH": "ค้นหา",
+  "FRIENDS_ALWAYS": "เป็นเพื่อนอยู่แล้ว",
+  "FRIENDS_REQ_SENT": "ส่งคำขอ",
+  "FRIENDS_REQ_SENT_MSG": "คุณต้องการส่งคำขอเพิ่มเพื่อนไปยัง ",
+  "FRIENDS_CHAT_NEW_MSG": "เขียนข้อความ"
+
+
+
+
+}

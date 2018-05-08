@@ -1,0 +1,38 @@
+
+<ion-header>
+
+  <ion-navbar color="hcolor">
+    <ion-title> {{'PROFILEPIC_TITLE' | translate}} </ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <div class="profile-image">
+    <img src="{{imgUrl}}" >
+  </div>
+
+  <div>
+    <button
+      ion-button
+      round
+      outline
+      (click)="chooseImage()"> {{'PROFILEPIC_CHOOSE' | translate}} </button>
+  </div>
+
+  <div [hidden]="!moveon">
+    <button
+      ion-button
+      round
+      outline
+      (click)="proceed()"> {{'PROFILEPIC_SKIP' | translate}} </button>
+  </div>
+  <div [hidden]="moveon">
+    <button
+      ion-button
+      round
+      outline
+      (click)="updateproces()"> {{'PROFILEPIC_UPLOAD' | translate}} </button>
+  </div>
+</ion-content>
